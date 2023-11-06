@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Bar</title>
+    <style>
+        body,ul{
+            margin:20;
+            padding:10px;
+            
+        }
+        .menu-bar{
+            background-color: black;
+            border-radius: 20px;
+        }
+        .menu-bar ul{
+            list-style: none;
+            text-align: center;
+        }
+        .menu-bar li{
+           display: inline;
+           margin: 10px;
+        }
+        .menu-bar a{
+           text-decoration: none;
+           color:white;
+           font-weight: bold;
+           padding: 5px 10px;
+           border-radius: 10px;
+        }
+        .menu-bar a:hover{
+            background-color: rgb(136, 141, 141);
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="menu-bar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li><br><br>
+            <div class="search"><input type="text" name="search" id="search" placeholder="search  this website"></div>
+        </ul>
+    </div>
+</body>
+</html>
